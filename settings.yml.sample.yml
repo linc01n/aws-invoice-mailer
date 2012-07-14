@@ -1,0 +1,18 @@
+---
+aws_login_email: "abc@abc.com"
+aws_login_password: "abcdefg"
+
+mail:
+  server: "smtp.gmail.com"
+  port: 587
+  domain: "gmail.com"
+  username: "abc@abc.com"
+  password: "abcdefg"
+
+email_settings:
+  from: "abc@abc.com"
+  to: "def@def.com"
+  reply_to: "def@abc.com"
+  subject: "AWS Monthly Invoice"
+  recipient_name: "DEF"
+  cc:

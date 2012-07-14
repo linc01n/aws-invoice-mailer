@@ -1,0 +1,53 @@
+<%# encoding: utf-8 %>
+<html>
+    <head>
+        <style>
+            sup{
+                font-size: 67%;
+                vertical-align: 33%;
+            }
+            sub{
+                font-size: 67%;
+                vertical-align: -10%;
+            }
+            p{
+                margin: 0px;
+            }
+            .s1{
+                color: #000000;
+                font-size: 75.0000%;
+                font-style: normal;
+                font-variant: normal;
+                font-weight: normal;
+                letter-spacing: 0.0000em;
+                margin-bottom: 0.0000%;
+                margin-top: 0.0000%;
+                padding-left: 0.0000%;
+                padding-right: 0.0000%;
+                text-align: left;
+                text-decoration: none;
+                text-indent: 0.0000%;
+                text-transform: none;
+            }
+            .s2{
+                color: #878787;
+                font-size: 100.0000%;
+                font-weight: bold;
+            }
+            .s3{
+                color: #878787;
+                font-size: 81.2500%;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div class="body">
+        <p>Hi <%= @nick %>, <br /><br /> FYI. Please find the attached pdf invoice.<br /><br /> Best, <br /><br />Lincoln</p>
+        <br />
+        <p class="s1 s2">Lincoln Lee</p>
+        <p class="s1 s3">Developer</p>
+    </div>
+    </body>
+</html>
